@@ -3,5 +3,6 @@
 var ele = document.createElement('div');
 ele.innerHTML = "Hello, DOM!";
 ele.style.backgroundColor = '#f9f9f9';
+ele.style.textAlign = 'center';
 
 document.body.appendChild(ele);
